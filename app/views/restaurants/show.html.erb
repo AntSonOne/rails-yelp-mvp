@@ -1,0 +1,7 @@
+<h2><%= @restaurant.name %></h2>
+<p><%= @restaurant.address %></p>
+<p><%= @restaurant.reviews %></p>
+
+  <p>
+    <%= link_to 'Back to list', restaurants_path(@restaurants), class: "btn btn-success" %>
+  </p>
